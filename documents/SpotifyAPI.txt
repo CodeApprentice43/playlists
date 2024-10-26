@@ -1,0 +1,59 @@
+1) Spotify Web API Documentation 
+https://developer.spotify.com/documentation/web-api
+
+What Is Learned:
+Getting Started:→How to set up a Spotify app in the Spotify dashboard
+		→How to get the Client ID / Secret from the Spotify dashboard 
+
+Concepts:	→Contains various definitions
+		→Explains Access Token (“Access Token” Access Token | Spotify for Developers) 
+		→Outline for HTTP calls (“API Calls” API calls | Spotify for Developers ) 
+		→Lists different types of OAuth flows and their uses (“Authorization” Authorization | Spotify for Developers ) 
+		→Explains OAuth scopes (permissions) and what data require which scopes (“Scopes” https://developer.spotify.com/documentation/web-api/concepts/scopes ) 
+
+Tutorials: 	→Gives a tutorial on how to actually format GET requests with various OAuth flows
+		→Explains refreshing tokens
+
+Reference: 	→Gives outline for each HTTP request for requesting different datas (ex. getting a song’s data, getting an artist’s data) 
+		→Shows potential Errors and their solutions
+		→Gives sample code in JavaScript
+
+Why It’s Helpful:
+Spotify’s Web API is how to request Data from Spotify. This documentation is essentially a comprehensive guide and cheat-sheet on the different formatting of how to request data and also how to receive data. It gives sample code right on the website. 
+
+
+2)” OAuth 2.0 - a dead simple explanation”
+https://youtu.be/q3FiuTZlroE?si=YD3d5fhNlGirQyCe
+
+What Is Learned:
+	This 10 min Video gives a simple overview of what OAuth 2.0  is and its purpose. It uses an example of a drawing app to demonstrate how OAuth 2.0  works with simple diagrams and animations. It defined basic terms like “client credentials”, “client ID”, “client secret”, “access/refresh tokens”, and “grant types”.
+
+Why It’s Helpful: 
+OAuth 2.0 is an authorization protocol that the Spotify API uses. Just reading the Spotify documentation raw without knowing OAuth terms or what OAuth is can be confusing, so it’s helpful to know how it works and some vocab terms before reading it.
+
+3) Web Playback SDK Reference
+https://developer.spotify.com/documentation/web-playback-sdk/reference
+
+What Is Learned
+	This is a reference sheet to the Spotify SDK library. It gives a list of functions that allow you to control playback. It lists the name of the function, its purpose, their arguments, and gives sample JavaScript code. 
+
+Why It’s Helpful
+Spotify’s Web Playback SDK is what we would have to use to implement music in our app or control Spotify's playback. It controls playback of songs. This is another comprehensive guide on how to do that.
+
+4) A Guide to JavaScript HTTP Requests
+https://kinsta.com/knowledgebase/javascript-http-request/
+
+What Is Learned
+	This is a detailed guide on how to make HTTP requests using JavaScript. It details the steps involved in making GET, POST, PATCH, and DELETE requests using various methods such as XMLHttpRequest, ajax, Fetch, (and more). It gives sample code and goes over it in detail.
+
+Why It’s Helpful
+	The Spotify web API documentation shows how to make various HTTP requests manually using “curl” (a command line tool), but we’re going to be automating this process using JavaScript. This website shows how you would translate the curl HTTP requests into JavaScript to then use in our web app. 
+
+5) HTTP Requests and Responses: A Beginner’s Guide
+https://medium.com/@S3Curiosity/http-requests-and-responses-a-beginners-guide-fc215b9ea741 
+
+What Is Learned:
+This article explains HTTP requests in general. It explains what GET, POST, PUT, DELETE does. It also explains the anatomy of a http request (method, URI, version, headers, and body). It gives a sample http request and its response. 
+
+Why It’s Helpful:
+It’s simply written for someone who’s a beginner to http. Even though we’re going to be using javascript to fetch our data, it’s important to understand what each method does and how http requests work. 

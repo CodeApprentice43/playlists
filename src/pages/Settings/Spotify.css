@@ -1,0 +1,198 @@
+.desktop {
+    background-color: #daf7a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .desktop .div {
+    background-color: #daf7a6;
+    height: 1023px;
+    overflow: hidden;
+    position: relative;
+    width: 1437px;
+  }
+  
+  
+  .desktop .overlap-group {
+    height: 193px;
+    left: 160px;
+    position: absolute;
+    top: 34px;
+    width: 1412px;
+    background-color: #daf7a6
+  }
+  
+  
+  .desktop .rectangle {
+    background-color: #d9d9d9;
+    height: 193px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1042px;
+  }
+  
+  
+  .desktop .text-wrapper {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 1102px;
+  }
+  
+  
+  .desktop .please-login-with {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 90px;
+    width: 1006px;
+  }
+  
+  
+  .desktop .img { /*Not being used anymore*/
+    display: block;
+    height: 48px;
+    left: 390px;
+    position: absolute;
+    top: 133px;
+    width: 269px;
+  }
+  
+  
+  .desktop .login-with-spotify { /*Not being used anymore*/
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 365px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 144px;
+    width: 274px;
+  }
+  
+  
+  .desktop .spotify-login-button {
+    border: 1px solid #1d744c; /* Add a border */
+    background-color: #1d744c; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor on hover */
+    /* Optional: Add hover effects */
+    z-index: 1;
+    position: relative;
+    top: 130px;
+    right: 150px;
+  }
+  
+  
+  .desktop .text-wrapper-2 {
+    color: #1d744c; /*color of text */
+    font-family: "Inter", Helvetica; /*Font (and backup font if first unavailable)*/
+    font-size: 32px; /*font size*/
+    font-weight: 700; /*thickness of text*/
+    left: 248px; /*how far from the left you are of its containing object*/
+    letter-spacing: 0; /*space between letters, 0 means no space*/
+    line-height: normal; /*line spacing between lines, normal means normal for the chosen font*/
+    position: absolute; /*how do we measure left and top? fixed,sticky,static,absolute,relative?*/
+    top: 323px; /*how far from the top you are of its containing object*/
+    width: 500px; /*width of the element, width of the text box for text*/
+  }
+  
+  
+  .desktop .playlist {
+    height: 73px;
+    left: 258px;
+    position: absolute;
+    top: 403px;
+    width: 82px;
+  }
+  
+  
+  .desktop .p {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 379px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 411px;
+    width: 653px;
+  }
+  
+  
+  .desktop .untitled {
+    height: 116px;
+    left: 241px;
+    position: absolute;
+    top: 539px;
+    width: 116px;
+  }
+  
+  
+  .desktop .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 389px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 560px;
+    width: 584px;
+  }
+  
+  
+  .desktop .explore-svgrepo-com {
+    height: 110px;
+    left: 238px;
+    position: absolute;
+    top: 747px;
+    width: 116px;
+  }
+  
+  
+  .desktop .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 393px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 757px;
+    width: 468px;
+  }
+  
+  
+  .desktop .boy-listening-to {
+    height: 272px;
+    left: 1007px;
+    object-fit: cover;
+    position: absolute;
+    top: 636px;
+    width: 291px;
+  }
+  
+  

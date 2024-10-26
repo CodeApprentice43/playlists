@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CSE442/2024-Fall/nafismor/moodplaylist/static/css/main.3403d035.css",
+    "main.js": "/CSE442/2024-Fall/nafismor/moodplaylist/static/js/main.15a48f38.js",
+    "static/js/453.addf6612.chunk.js": "/CSE442/2024-Fall/nafismor/moodplaylist/static/js/453.addf6612.chunk.js",
+    "static/media/settingsIcon.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/settingsIcon.997464081521eb906685.png",
+    "static/media/gear.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/gear.2e817c0b0364687f5853.png",
+    "static/media/image.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/image.d957592dfe7b632de567.png",
+    "static/media/spotifylogo-1.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/spotifylogo-1.4159ddd5a91238f899d6.png",
+    "static/media/eyeClosed.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/eyeClosed.b3f0500f5ef9d05ab880.png",
+    "static/media/eyeOpen.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/eyeOpen.b802965b970457bc68db.png",
+    "static/media/x-sign.png": "/CSE442/2024-Fall/nafismor/moodplaylist/static/media/x-sign.afaf0d3a373846fb2636.png",
+    "index.html": "/CSE442/2024-Fall/nafismor/moodplaylist/index.html",
+    "main.3403d035.css.map": "/CSE442/2024-Fall/nafismor/moodplaylist/static/css/main.3403d035.css.map",
+    "main.15a48f38.js.map": "/CSE442/2024-Fall/nafismor/moodplaylist/static/js/main.15a48f38.js.map",
+    "453.addf6612.chunk.js.map": "/CSE442/2024-Fall/nafismor/moodplaylist/static/js/453.addf6612.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3403d035.css",
+    "static/js/main.15a48f38.js"
+  ]
+}

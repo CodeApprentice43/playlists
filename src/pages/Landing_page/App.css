@@ -1,0 +1,42 @@
+/* Full-screen container */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #DAF7A6; /* light green background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+/* Centered circle with TBD text */
+.centered-circle {
+  width: 250px;
+  height: 250px;
+  background-color: #E6E6FA; /* light purple */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TBD text inside circle */
+.centered-circle p {
+  font-size: 75px; /* Adjusted font size */
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+}
+
+/* Footer text */
+.footer-text {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+} 
+

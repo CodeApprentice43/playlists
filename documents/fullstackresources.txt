@@ -1,0 +1,16 @@
+Resources for HTML/CSS/JS and SQL
+
+MDN Web Docs(https://developer.mozilla.org)
+  This site offers comprehensive documentation for HTML/CSS/JS. It offers a dynamic range of documentation for each technology ranging from beginner friendly to intermediate/advanced. Ideally we would refer to this site whenever we need insights on using JavaScript with databases via AJAX or implementing any sort of dynamic functionality via HTML/JS.
+
+W3Schools(https://www.w3schools.com)
+  W3Schools is the perfect site for beginners. They provide a massive array of information and interactive tutorials for several technologies including HTML/CSS/JS/SQL. Ideally the best option if we need a quick and easy explanation of a concept without going into too much depth.
+
+The Modern JavaScript Tutorial(https://javascript.info)
+  The Modern JavaScript Tutorial is a detailed guide that covers everything about JS in a structured manner. The explanations of the JS concepts are stated clearly making it accessible for both beginners and experienced developers. We would ideally want to refer to this site whenever we need to learn about a JS concept or confirm something about JS.
+
+- CSS-Tricks(https://css-tricks.com)
+  This site has a plethora of information on how CSS integrates with HTML/JS. It offers articles on advanced CSS techniques, styling dynamically generated content, and also has a built-in forum where you can ask questions.
+
+- SQLZoo(https://sqlzoo.net)
+  This site offers a wide array of interactive SQL tutorials and exercises. It is divided into several sections, each of which covers a different SQL concept with examples and exercises to complete in order to gain a better understanding. We would need to first understand the basics of database operations in SQL before we write PHP scripts for interacting with MySQL databases.

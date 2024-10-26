@@ -1,0 +1,358 @@
+.desktop {
+  background-color: #daf7a6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.desktop .container {
+  background-color: #daf7a6;
+  height: 1023px;
+  overflow: hidden;
+  position: relative;
+  width: 1437px;
+}
+  
+
+
+.desktop .topBox {
+  background-color: #daf7a6;
+  height: 193px;
+  left: 160px;
+  position: absolute;
+  top: 34px;
+  width: 1412px;
+}
+
+
+.desktop .greyTopHeader {
+  background-color: #d9d9d9;
+  height: 193px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1042px;
+}
+
+
+.desktop .linkSpotifyText {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 0px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  width: 1102px;
+}
+
+
+.desktop .pleaseLoginWithText {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 90px;
+  width: 1006px;
+}
+
+
+
+.desktop .spotifyLoginButton {
+  border: 1px solid #1d744c; /* Add a border */
+  background-color: #1d744c; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor on hover */
+  /* Optional: Add hover effects */
+  z-index: 1;
+  position: relative;
+  top: 130px;
+  right: 150px;
+}
+
+
+
+
+
+
+
+.desktop .featuresYouReceive {
+  color: #1d744c; /*color of text */
+  font-family: "Inter", Helvetica; /*Font (and backup font if first unavailable)*/
+  font-size: 32px; /*font size*/
+  font-weight: 700; /*thickness of text*/
+  left: 248px; /*how far from the left you are of its containing object*/
+  letter-spacing: 0; /*space between letters, 0 means no space*/
+  line-height: normal; /*line spacing between lines, normal means normal for the chosen font*/
+  position: absolute; /*how do we measure left and top? fixed,sticky,static,absolute,relative?*/
+  top: 323px; /*how far from the top you are of its containing object*/
+  width: 500px; /*width of the element, width of the text box for text*/
+}
+
+
+.desktop .firstPic {
+  height: 73px;
+  left: 258px;
+  position: absolute;
+  top: 403px;
+  width: 82px;
+}
+
+
+.desktop .firstCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 379px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 411px;
+  width: 653px;
+}
+
+
+.desktop .secondPic {
+  height: 116px;
+  left: 241px;
+  position: absolute;
+  top: 539px;
+  width: 116px;
+}
+
+
+.desktop .secondCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 389px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 560px;
+  width: 584px;
+}
+
+
+.desktop .thirdPic {
+  height: 110px;
+  left: 238px;
+  position: absolute;
+  top: 747px;
+  width: 116px;
+}
+
+
+.desktop .thirdCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 393px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 757px;
+  width: 468px;
+}
+
+
+.desktop .boyListeningPic {
+  height: 272px;
+  left: 1007px;
+  object-fit: cover;
+  position: absolute;
+  top: 636px;
+  width: 291px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile styles */
+
+
+@media (max-width: 768px) {
+  .desktop {
+    display: block; /* Stack elements vertically for mobile */
+    height: auto;
+    overflow-y: auto; /* Allow vertical scrolling */
+    flex-direction: column; /* Force vertical stacking */
+    
+  }
+
+  .desktop .container {
+    width: 100%; /* Ensure it occupies full width */
+    display: block; /* Ensures stacking */
+  }
+  
+
+  .desktop .container .topBox {
+    width: 100%; /* Full width for mobile */
+    height: auto;
+    position: relative; /* Remove absolute positioning */
+    top: 0;
+    left: 0;
+    padding: 20px; /* Add some padding */
+  }
+
+  .desktop .container .topBox .greyTopHeader {
+    width: 100%; /* Full width for mobile */
+    height: 100%; /* Set a fixed height */
+    background-color: #d9d9d9; /* Ensure it's visible */
+    
+  }
+
+  .desktop .container .topBox  .linkSpotifyText {
+    font-size: 18px; /* Smaller font size on mobile */
+    top: 0; /* Adjust position */
+    max-width: 90%;
+    position: relative;
+  }
+
+  .desktop .container .topBox  .pleaseLoginWithText {
+    font-size: 14px; /* Smaller font size */
+    top: 0;
+    left: 0;
+    position: relative;
+    max-width: 90%;
+  }
+
+  .desktop .container .topBox  .spotifyLoginButton {
+    top: 0px; /* Adjust button position */
+    right: 0;
+    width: 35%; /* Full-width button */
+    padding: 15px;
+    font-size: 16px; /* Adjust font size */
+    
+  }
+
+
+  .desktop .featuresYouReceive {
+    color: #1d744c;
+    font-family: "Inter", Helvetica; 
+    font-size: 32px; 
+    font-weight: 700; 
+    position: relative; /* Change to relative */
+    left: 0; /* Reset position */
+    top: 10px; 
+    width: auto; /* Allow it to adapt */
+}
+
+
+
+
+
+
+
+.desktop .firstPic {
+  height: 73px;
+  position: relative; 
+  top: 50px; 
+  left: 0; 
+  width: auto; 
+}
+
+
+
+
+.desktop .firstCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative; /* Keep it relative */
+  top: 40px; /* Adjust based on your layout */
+  left: 5%; /* Use a percentage for left positioning */
+  width: 90%; /* Ensure it fits within the container */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.desktop .secondPic {
+  height: 73px;
+  position: relative; 
+  top: 50px; 
+  left: 0; 
+  width: auto; 
+}
+
+
+.desktop .secondCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative; /* Keep it relative */
+  top: 40px; /* Adjust as necessary for vertical positioning */
+  left: 5%; /* Use a percentage for left positioning */
+  width: 90%; /* Ensure it fits within the container */
+  max-width: 600px; /* Optional: set a max width */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.desktop .thirdPic {
+  height: 73px;
+  position: relative; 
+  top: 50px; 
+  left: 0; 
+  width: auto; 
+}
+
+
+.desktop .thirdCaption {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative; /* Keep it relative */
+  top: 40px; /* Adjust this for vertical positioning */
+  left: 5%; /* Use a percentage for horizontal positioning */
+  width: 90%; /* Ensure it fits within the container */
+  max-width: 600px; /* Optional: limit maximum width */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.desktop .boyListeningPic {
+  height: auto; /* Allow height to adjust based on aspect ratio */
+  max-height: 272px; /* Set a maximum height */
+  left: 5%; /* Use a percentage for left positioning */
+  object-fit: cover; /* Maintain the aspect ratio while covering the container */
+  position: relative; /* Keep it relative */
+  top: 50px; /* Adjust as needed for vertical positioning */
+  width: auto; /* Allow width to adjust */
+  max-width: 90%; /* Ensure it fits within the container */
+}
+
+
+
+
+}

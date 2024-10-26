@@ -1,0 +1,30 @@
+Product Vision:
+	TBD aims to be the most accurate, go-to music recommender on the market. Our goal is to revolutionize the way people discover music by connecting music listeners with new music that seamlessly fits with their established tastes while simultaneously expanding their music tastes for them to discover new genres and artists they have never tried before.   We envision a world where listening to music is a deeply individual experience where music can adapt to someone’s ever-changing mood and taste. Our app aims to grow with our clients, as their preferences expand, our app will adapt with them.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mission Statement:
+	At TBD our mission is to empower music discovery by providing personalized playlists handpicked for your unique music tastes. From a passionate music lover to a casual listener, TBD’s committed to connecting you with new and exciting songs, artists, and genres from across the globe while helping you stay connected to your old favorites. We serve to foster a community of listeners where users can grow their music tastes together. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pitch – What this product actually does 
+(https://docs.google.com/presentation/d/1whEUtMmwpPW68qQvaW86yix_q4WP68PtMDurLDLVGr8/edit#slide=id.g2fff0daf7ca_0_35)
+
+Community– Connect With Others!
+	Friend Others With Similar Taste as You!
+	See the Top 100 most popular songs on the platform right now!
+	Link with your Spotify Account!
+	Get Global Beats from Around the World!
+Situation Specific Playlists– Listen Your Way!
+	Generate Playlists based on your mood!
+	Generate Playlists for Specific Events (cooking, family time, working out, etc)!
+	Make Folders of Your Favorite Genres!
+	Search for Your Favorite Songs!
+Discover– Expand Your Taste!
+	Discover Artists Similar to Your Favorite Singers!
+	Discover Songs Similar to Your Favorite Songs!
+	Shuffle Playlists for a new experience every time
+Individuality– You’re Unique Listening Habits
+	Ability to Like/Dislike Songs!
+	View Details About Your Favorite Songs and Artists!
+	Look at your user statistics to understand Yourself More!
+

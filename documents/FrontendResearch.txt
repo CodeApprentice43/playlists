@@ -1,0 +1,18 @@
+﻿
+
+The links include information about React JS, the connection of React and PHP, the php
+1.	https://www.geeksforgeeks.org/react-tutorial/
+React Tutorial - GeeksforGeeks This is the introduction of react and its basic architecture. The website discuss further the usage of react briefly and includes several other links related to development in react JS.
+2. https://dev.to/dom_the_dev/how-to-use-the-spotify-api-in-your-react-js-app-50pn
+How to use the Spotify API In Your React JS App - DEV Community
+This is about how we can use Spotify API into react JS. This includes the information about authentication, Accessing token, fetching data and displaying to the client side.
+3. https://www.geeksforgeeks.org/how-to-create-restful-api-and-fetch-data-using-reactjs/	
+How to Create RESTful API and Fetch Data using ReactJS ? - GeeksforGeeks
+This includes the introduction of RESTful API which seems to be an important part of the development. The link explains the process of RestAPI and we can fetch data using this in React JS.
+4. https://www.geeksforgeeks.org/how-to-connect-reactjs-as-a-front-end-with-php-as-a-back-end/	
+How to connect ReactJS as a front-end with PHP as a back-end ? - GeeksforGeeks
+Here, the information about how reactJS can be connected with PHP is mentioned. For our project, in frontend, if we use reactJS, we would need to fetch data from Backend. This link provides the details how to connect the two technologies and make it work. 
+5. https://dev.to/emmykolic/how-to-use-php-as-a-backend-using-react-for-frontend-3dca
+How To Use PHP As A Backend Using React For Frontend - DEV Community
+This further explains the reasons and ways to connect PHP as a backend technology while using React JS as the frontend
+

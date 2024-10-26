@@ -1,0 +1,98 @@
+/* playlist.css */
+
+.song-list {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+.playlist-title {
+    font-size: 2.5em; /* Match homepage title */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.playlist-container {
+    display: flex;
+    flex-direction: column; /* Vertical layout for tracks */
+    gap: 20px; /* Gap between items */
+}
+
+.playlist-card {
+    width: 100%; /* Full width for each card */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Padding for the card */
+    background-color: #EADDFF; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Flexbox for image and text */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+
+
+
+
+.playlist-card:hover {
+    transform: scale(1.02); /* Scale up card on hover */
+}
+
+.playlist-image {
+    width: 80px; /* Fixed size for the track image */
+    height: 80px; /* Keep it square */
+    border-radius: 10px; /* Rounded corners for image */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.track-title {
+    margin: 0; /* Reset default margin */
+    font-weight: bold; /* Bold title */
+    font-size: 1.2em; /* Slightly larger font size for track title */
+    color: black;
+}
+
+.artist-name {
+    color: rgb(79, 79, 79); /* Match homepage artist name style */
+    margin: 0; /* Reset default margin */
+    font-size: 1em; /* Font size for artist name */
+}
+
+
+.cancel-instance {
+    height: 10px ;
+    left: 1vh ;
+    position: absolute ;
+    top: 1vh;
+    width: 10px ;
+  }
+  .cancel-instance img {
+    width: 50px; /* Smaller image size for mobile */
+    height: 50px; /* Smaller image size for mobile */
+  }
+
+ /* AvatarButton.css */
+
+.avatar {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 50%; /* Circular button */
+    overflow: hidden; /* Ensure the image fits nicely */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 50px; /* Set height to match the image size */
+    width: 50px; /* Set width to match the image size */
+    position: fixed; /* Use fixed to keep it in view */
+    right: 1vh; /* Position it 1vh from the right */
+    top: 1vh; /* Position it 1vh from the top */
+    z-index: 1000; /* Make sure it is on top of other elements */
+}
+
+.avatar img {
+    width: 50px; /* Keep the image size consistent */
+    height: 50px; /* Keep the image size consistent */
+    border-radius: 50%; /* Make the image circular */
+}

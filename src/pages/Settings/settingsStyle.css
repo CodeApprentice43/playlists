@@ -1,0 +1,1241 @@
+
+.desktop {
+    background-color: #daf7a6;
+    display: block; /* Remove flex centering */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+  
+.desktop .contain {
+    background-color: #daf7a6;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+  /*Setting Error message styff*/
+  .desktop .message {
+    position: absolute; /* Absolute positioning */
+    top: 5px; /* Distance from the top */
+    left: 50%; /* Start the element from the center */
+    transform: translateX(-50%); /* Move the element back by half its width to center it */
+    background-color: #f0f0f0; /* Background color for the message box */
+    padding: 10px 20px; /* Padding inside the message box */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1000; /* Ensure it's above other elements */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add some shadow */
+    font-size: 1vw; /* Adjust font size */
+    color: #333; /* Text color */
+    border: 1px solid #ccc; /* Add a border */
+    width: auto; /* Adjust the width */
+    max-width: 90%; /* Prevent the message from being too wide on small screens */
+    text-align: center; /* Center the text */
+}
+
+  /* Success message styling */
+
+/* Error message styling */
+.message.error {
+  background-color: #f2dede; /* Light red for error */
+  color: #a94442; /* Dark red text for error */
+  border-color: #ebccd1; /* Red border */
+}
+
+  
+  
+  /* The Coming Soon overlay */
+  .coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    border-radius: 10px;
+  }
+  
+  /* Show the overlay on hover */
+  .friends-tab:hover .coming-soon-overlay {
+    opacity: 1;
+  }
+  
+  .desktop .overlap-group {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 570px;
+    position: relative;
+    width: 545px;
+  }
+  
+  .desktop .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 119px;
+    left: 27px;
+    position: absolute;
+    top: 182px;
+    width: 485px;
+  }
+  
+  
+  
+  .desktop .overlap-3 {
+    height: 83px;
+    left: 124px;
+    position: absolute;
+    top: 5px;
+    width: 346px;
+  }
+  
+  .desktop .x-sign {
+    height: 56px;
+    left: 290px;
+    position: absolute;
+    top: 27px;
+    width: 56px;
+  }
+  
+  .desktop .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 290px;
+  }
+  
+  .desktop .overlap-4 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 119px;
+    left: 27px;
+    position: absolute;
+    top: 309px;
+    width: 485px;
+  }
+  
+  
+  
+  .desktop .img {
+    height: 56px;
+    left: 414px;
+    position: absolute;
+    top: 31px;
+    width: 56px;
+  }
+  
+  .desktop .overlap-5 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 119px;
+    left: 27px;
+    position: absolute;
+    top: 436px;
+    width: 485px;
+  }
+  
+  .desktop .plus-sign {
+    height: 67px;
+    left: 394px;
+    position: absolute;
+    top: 26px;
+    width: 67px;
+  }
+  
+  .desktop .frame {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 24px;
+    padding: 10px;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .desktop .div-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 258px;
+  }
+  
+  .desktop .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 333px;
+  }
+  
+  .desktop .rectangle {
+    background-color: #d9d9d9;
+    height: 228px;
+    left: 519px;
+    position: absolute;
+    top: 72px;
+    width: 21px;
+  }
+  
+  .desktop .friend-request {
+    height: 119px;
+    left: 30px;
+    position: absolute;
+    top: 54px;
+    width: 500px;
+  }
+  
+  .desktop .overlap-6 {
+    height: 119px;
+    position: relative;
+    width: 498px;
+  }
+  
+  .desktop .rectangle-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 119px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 485px;
+  }
+  
+
+  
+  .desktop .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    width: 379px;
+  }
+  
+  .desktop .accept-button {
+    height: 58px;
+    left: 131px;
+    position: absolute;
+    top: 53px;
+    width: 161px;
+  }
+  
+  .desktop .overlap-group-2 {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 58px;
+    position: relative;
+    width: 159px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 122px;
+  }
+  
+  .desktop .decline-button {
+    height: 58px;
+    left: 306px;
+    position: absolute;
+    top: 53px;
+    width: 175px;
+  }
+  
+  .desktop .overlap-7 {
+    height: 58px;
+    position: relative;
+    width: 173px;
+  }
+  
+  .desktop .rectangle-3 {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 58px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 159px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 137px;
+  }
+  
+  .desktop .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 149px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 313px;
+    white-space: nowrap;
+    width: 284px;
+  }
+  
+  .desktop .infoChange {
+    height: 500px;
+    left: 0px;
+    position: absolute;
+    top: 200px;
+    width: 45vw;
+    margin-left: 3vw;
+    
+  }
+  
+  
+  
+  .desktop .infoPurpleBox {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 95%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  .desktop .name {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  
+  .desktop .email {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+    width: auto;
+    margin-left: 20px;
+  }
+  
+  
+  .desktop .password {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 230px;
+    width: auto;
+    margin-left: 20px;
+  }
+  
+  /*PASSWORD RECTANGLE*/
+  
+  
+  .desktop .confirmPassword {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 350px;
+    white-space: nowrap;
+    width: auto;
+    margin-left: 20px;
+  }
+  
+  
+  
+  .desktop .infoChange .infoPurpleBox  .updateButton {
+    background-color: #3aa141;
+    border-radius: 10px;
+    border: none;
+    height: 84px;
+    top: 360px;
+    width: 274px;
+  
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    line-height: 38.4px;
+    cursor: pointer;
+
+    
+    white-space: nowrap;
+
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Ensures the button takes full width behavior */
+    position: relative; /* Remove absolute positioning */
+    
+  }
+
+
+  
+  .desktop .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    width: 211px;
+  }
+  
+  .desktop .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 37px;
+    left: 38px;
+    letter-spacing: -0.96px;
+    line-height: 38.4px;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
+    width: 595px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .desktop .account-management {
+    height: 120px;
+    position: absolute; /* Position absolutely */
+    top: 84%; /* Keep it at the top */
+    right: 5vw; /* Add some margin on the right (adjust as needed) */
+    width: 37vw;
+    
+}
+
+
+  
+  .desktop .contain .accManagementBox {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    
+  }
+  
+  .desktop .signOut {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 155px;
+  
+    text-decoration: underline; /* This adds the underline */
+    cursor: pointer; /* Optional: If you want it to still have a pointer cursor like a link */
+    color: inherit; 
+  }
+  
+  
+  
+  .desktop .cancel-instance {
+    height: 10px ;
+    left: 1vh ;
+    position: absolute ;
+    top: 1vh;
+    width: 10px ;
+  }
+  .cancel-instance img {
+    width: 50px; /* Smaller image size for mobile */
+    height: 50px; /* Smaller image size for mobile */
+  }
+  
+  
+  .desktop .mainProfile {
+    border-radius: 50px;
+    height: 150px;
+    left: 0px;
+    position: absolute;
+    top: 40px;
+    width: 50%;
+    margin-left: 50px;
+  }
+  
+  
+  
+  .desktop .mainProfilePic {
+    background-image: url(../../asset/image.png);
+    background-size: 100%;
+    height: 10vw;
+    width: 10vw;
+
+    position: absolute; /* Stay in relation to its parent */
+    top: 50%; /* Move 50% down from the top of the parent */
+    left: 0; /* Keep it on the left (adjust if you want horizontal centering too) */
+
+    transform: translateY(-50%); /* Move it back up by half of its own height */
+
+    border-radius: 50%;
+}
+
+  
+  
+  
+  
+  
+  
+  /*CHANGE PHOTO OVERLAY BUTTON*/
+  .desktop .changePicButt {
+    background-color: #eaddff;
+    border-radius: 10px;
+    border: none;
+    height: 57px;
+    right: 320px;
+    position: absolute;
+    bottom: 20px;
+    width: 169px;
+    font-size: 20px;
+    cursor: pointer;
+  
+    overflow: hidden;   /* Ensure the overlay stays inside the button */
+
+
+    left: 25%;
+    width: 30%;
+   
+  }
+  
+  .coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000; /* Semi-transparent black */
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* To allow the click to pass through */
+  }
+  
+  /* Show the overlay on hover */
+  .changePicButt:hover .coming-soon-overlay {
+    opacity: 1;
+  }
+  
+  
+  
+  .desktop .username {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    height: 58px;
+    left: 25%;
+    letter-spacing: -1.08px;
+    line-height: 43.2px;
+    position: absolute;
+    top: 30px;
+    width: auto;
+  }
+  
+  .desktop .contain .spotify-tab {
+    height: 150px;
+    width: 37vw;
+    position: absolute; /* Position it absolutely */
+    top: 11%; /* Pin it to the top */
+    right: 5vw; /* Set some space (5vw) from the right edge */
+    /* margin-left: auto; -- Remove this, it's unnecessary */
+    /* margin-right: 5vw; -- Also remove this */
+}
+
+  
+  .desktop .spotifyBox {
+    background-color: #eaddff;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .desktop .spotifyCustomLogo {
+    left: 10px; /* Position from the left */
+    position: absolute; /* Keep it positioned relative to the parent */
+    
+    /* Center vertically */
+    top: 50%; /* Move to the vertical center */
+    transform: translateY(-50%); /* Adjust back by half of its height to center it */
+
+    width: 8vw; /* Responsive width */
+    height: 8vw; /* Same as width for a perfect circle */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensures content fits well */
+}
+  
+  
+  
+ 
+  
+  .desktop .spotifyLogoPic {
+    
+    
+    object-fit: cover;
+    position: relative;
+   
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  
+  .desktop .spotifyName {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 3vw;
+    
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute; /* Absolute positioning relative to the parent */
+    top: 25px; /* Position from the top */
+    left: 30%; /* Aligns the right edge to the parent’s right edge */
+    width: auto; /* Width adapts to the text */
+}
+
+
+
+  
+  .desktop .spotifyButtonBox {
+    background-color: #EADDFF;
+    border-radius: 10px;
+    height: 60px;
+    left: 30%;
+    position: absolute;
+    top: 80px;
+    width: 60%;
+  }
+  
+  
+  .desktop .spotifyButton {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    
+  
+  
+   border: none; /* Remove border */
+    border-radius: 10px; /* Rounder edges - adjust value as needed */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease;
+  }
+  
+  .desktop .pageSettingsLabel {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 72px;
+    font-weight: 700;
+
+    height: auto;
+    margin: 0 auto; 
+    letter-spacing: -2.16px;
+    line-height: 86.4px;
+    white-space: nowrap;
+    width: 415px;
+
+    /* Centering it horizontally and vertically */
+    position: absolute;
+    top: 5%; /* Push it down 50% of the parent’s height */
+    left: 50%; /* Push it from the left by 50% of the parent’s width */
+    transform: translate(-50%, -50%); /* Adjust back by half of its width and height */
+}
+
+
+
+  
+  
+  /* Overlay background style */
+  
+  
+  /* Overlay background style */
+  .desktop .overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000;
+  }
+  
+  /* Overlay content box */
+  .desktop .overlay-content {
+    background-color: #fff;
+    padding: 0; /* Remove padding around the buttons */
+    border-radius: 20px; /* Rounded corners for the overlay */
+    width: 100%; /* Full width for the overlay */
+    max-width: 500px; /* Max width of the overlay box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-align: center; /* Center text inside the overlay */
+  }
+  
+  /* Style for the buttons */
+  .desktop .overlay-buttons {
+    display: flex; /* Use flexbox to arrange buttons side by side */
+    justify-content: stretch; /* Stretch buttons to fill the container */
+    width: 100%; /* Full width for the button container */
+    margin: 0; /* Remove margin */
+    
+  }
+  
+  .desktop .overlay-buttons button {
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    border: none; /* No border */
+    border-radius: 20px; /* No rounded corners */
+    padding: 10px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    flex: none; /* Prevent flexbox from stretching */
+    width: 250px; /* Set the width of the button */
+    height: 50px; /* Set the height of the button */
+    margin: 0; /* Remove margin */
+    
+  }
+  
+  /* Hover effect for buttons */
+  .desktop .overlay-buttons button:hover {
+    background-color: #f2f2f2; /* Slightly darker background on hover */
+  }
+  
+  .desktop .overlay-content h1 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+    font-size: 24px; /* Adjust font size */
+    font-weight: 700; /* Change font weight (bold) */
+    color: #000; /* Change text color */
+    margin-bottom: 10px; /* Space below the h1 */
+  }
+  
+  .desktop .overlay-content h3 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+    font-size: 16px; /* Adjust font size */
+    font-weight: 400; /* Regular weight */
+    color: #555; /* Change text color for contrast */
+    margin-top: 0; /* Remove margin above h3 */
+    margin-bottom: 20px; /* Space below the h3 */ 
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .desktop .infoPurpleBox .name-input {
+    width: 90%; /* Full width */
+    padding: 10px; /* Padding inside the input field */
+    
+    border-radius: 10px; /* Rounded corners */
+    border: none; /* Border style */
+    
+    font-family: "Inter-Regular", Helvetica; /* Font family */
+   
+    height: 45px;
+    
+    position: relative;
+    top: 50px;
+    
+  
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    line-height: 38.4px;
+   
+    white-space: nowrap;
+    outline: none;
+    
+    
+  }
+  
+  
+  
+  .desktop .infoPurpleBox .email-input {
+    width: 90%; /* Full width */
+    padding: 10px; /* Padding inside the input field */
+    
+    border-radius: 10px; /* Rounded corners */
+    border: none; /* Border style */
+    
+    font-family: "Inter-Regular", Helvetica; /* Font family */
+   
+    height: 45px;
+    
+    position: relative;
+    top: 100px;
+    
+  
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    line-height: 38.4px;
+   
+    white-space: nowrap;
+    outline: none;
+    
+  
+    
+  }
+  
+  
+  
+  
+  
+  .desktop .infoPurpleBox .password-input-container {
+    position: absolute; 
+    top: 275px; /* Adjust this value to move up as needed */
+    left: 50%; /* Move the left edge of the container to the middle of the parent */
+    width: 95%; /* Set width to 90% of the parent */
+    height: 65px; /* Maintain height */
+    background-color: #ffffff; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Use flexbox to align the input and the button inside */
+    align-items: center; /* Vertically center the input and the button */
+    padding: 0 10px; /* Padding inside the container */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    transform: translateX(-50%); /* Adjust back to center it horizontally */
+}
+
+
+.password-input {
+    flex: 1; /* Take up remaining space */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    font-family: "Inter-Regular", Helvetica; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 400; /* Font weight */
+    height: 100%; /* Stretch the input to fill the container height */
+    padding-left: 10px; /* Padding on the left */
+    width: 90%;
+    border-radius: 10px;
+    height: 90%;
+}
+
+.toggle-password {
+    background: transparent;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 100%;
+}
+
+.toggle-password-icon {
+    width: 40px; /* Adjust the size of the icon as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  .password-input-container2 {
+    position: absolute; 
+    top: 390px; /* Adjust this value to move up as needed */
+    left: 50%; /* Move the left edge of the container to the middle of the parent */
+    width: 95%; /* Set width to 90% of the parent */
+    height: 65px; /* Maintain height */
+    background-color: #ffffff; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Use flexbox to align the input and the button inside */
+    align-items: center; /* Vertically center the input and the button */
+    padding: 0 10px; /* Padding inside the container */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    transform: translateX(-50%); /* Adjust back to center it horizontally */
+  }
+  
+  .password-input2 {
+    flex: 1; /* Take up remaining space */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    font-family: "Inter-Regular", Helvetica; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 400; /* Font weight */
+    height: 100%; /* Stretch the input to fill the container height */
+    padding-left: 10px; /* Padding on the left */
+    width: 90%;
+    border-radius: 10px;
+    height: 90%;
+  }
+  
+  .toggle-password2 {
+    background: transparent;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 100%;
+  }
+  
+  .toggle-password-icon2 {
+    width: 40px; /* Adjust the size of the icon as needed */
+    height: auto; /* Maintain aspect ratio */
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .desktop .deleteAcc {
+    color: #d31518;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 65px;
+    width: auto;
+    cursor: pointer;
+    left: 22px;
+  }
+  
+  
+  
+  
+  
+  /* DELETE OVERLAY background style */
+  .desktop .delOverlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000;
+  }
+  
+  /* Overlay content box */
+  .desktop .delOverlay-content {
+    background-color: #D9D9D9;
+    padding: 0; /* Remove padding around the content */
+    border-radius: 20px; /* Rounded corners for the overlay */
+    width: 100%; /* Full width for the overlay */
+    max-width: 500px; /* Max width of the overlay box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-align: center; /* Center text inside the overlay */
+  }
+  
+  /* Style for the buttons container */
+  .desktop .delOverlay-buttons {
+    display: flex; /* Use flexbox to arrange buttons side by side */
+    justify-content: stretch; /* Stretch buttons to fill the container */
+    width: 100%; /* Full width for the button container */
+    margin: 0; /* Remove margin */
+    
+  }
+  
+  /* Style for delete button */
+  .desktop .delOverlay-buttons .delete-button {
+    border: none; /* No border */
+    border-radius: 20px; /* No rounded corners */
+    padding: 0; /* Remove padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    flex: 1; /* Allow button to stretch */
+    height: 80px; /* Set the height of the button */
+    margin: 0; /* Remove margin */
+    color: #ff0000; /* Black text color */
+    text-decoration: underline; /* Underline text */
+    font-size: 25px;
+    background-color: #D9D9D9;
+  }
+  
+  /* Style for cancel button */
+  .desktop .delOverlay-buttons .cancel-button {
+   
+    color: #000000; /* Black text color */
+    border: none; /* No border */
+    border-radius: 20px; /* No rounded corners */
+    padding: 0; /* Remove padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    flex: 1; /* Allow button to stretch */
+    height: 80px; /* Set the height of the button */
+    margin: 0; /* Remove margin */
+    font-size: 25px;
+    background-color: #D9D9D9;
+  }
+  
+  /* Hover effect for delete button */
+  .desktop .delOverlay-buttons .delete-button:hover {
+    background-color: #b3b3b3; /* Darker red background on hover */
+  }
+  
+  /* Hover effect for cancel button */
+  .desktop .delOverlay-buttons .cancel-button:hover {
+    background-color: #b3b3b3; /* Slightly darker gray on hover */
+  }
+  
+  /* Header styles */
+  .desktop .delOverlay-content h1 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+    font-weight: 700; /* Change font weight (bold) */
+    color: #000; /* Change text color */
+    margin-bottom: 10px; /* Space below the h1 */
+    font-size: 45px;
+  }
+  
+  .desktop .delOverlay-content h2 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+    font-size: 16px; /* Adjust font size */
+    font-weight: 400; /* Regular weight */
+    color: #555; /* Change text color for contrast */
+    margin-top: 0; /* Remove margin above h3 */
+    margin-bottom: 20px; /* Space below the h3 */ 
+  }
+  
+  .desktop .delOverlay-content h3 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+    font-size: 16px; /* Adjust font size */
+    font-weight: 400; /* Regular weight */
+    color: #ff0000; /* Change text color for contrast */
+    margin-top: 0; /* Remove margin above h3 */
+    margin-bottom: 20px; /* Space below the h3 */ 
+    text-decoration: underline; /* Underline text */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .desktop .friends-tab {
+    background-color: #EADDFF;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+    position: absolute;
+    z-index: 1000;
+    height: 390px;
+    width: 35vw;
+    margin-left: auto; /* This will push the box to the right */
+    
+    top: 31%;
+    right: 5vw; /* Set some space (5vw) from the right edge */
+    /* margin-left: auto; -- Remove this, it's unnecessary */
+    /* margin-right: 5vw; -- Also remove this */
+}
+
+
+
+
+  
+  
+  
+.desktop .friends-tab h1 {
+    font-family: "Inter-Regular", Helvetica, sans-serif; /* Desired font */
+    font-size: 30px; /* Font size for the header */
+    color: #000; /* Text color for the header */
+    margin-bottom: 4px; /* Space below the header */
+    text-align: left; /* Left align the text */
+    
+  }
+  
+  
+  .desktop .notifications {
+    background-color: #ffffff; /* White background for notifications */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside notifications box */
+    max-height: 190px; /* Max height for the notifications box */
+    overflow-y: auto; /* Scroll if notifications exceed max height */
+    margin-bottom: 10px; /* Space below notifications box */
+  }
+  
+  .desktop  .notification {
+    padding: 5px; /* Padding inside each notification */
+    border-bottom: 1px solid #eaeaea; /* Bottom border for separation */
+  }
+  
+  .desktop .notification:last-child {
+    border-bottom: none; /* Remove border for the last notification */
+  }
+  
+  .desktop .add-friend {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .desktop  .friend-input {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 0px; /* Space between input and button */
+    width: 250px; /* Set a fixed width for the input box */
+    height: 40px; /* Set a fixed height for the input box */
+  }
+  
+  .desktop  .add-button {
+    background-color: #D9D9D9; /* Grey background color */
+    color: #000000; /* Change text color to white for better contrast */
+    font-size: 40px; /* Button text size */
+    border: none; /* No border */
+    border-radius: 0; /* Square corners */
+    padding: 8px 20px; /* Adjust padding for a more square shape */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    border-radius: 5px;
+  }
+  
+  .desktop   .add-button:hover {
+    background-color: #bebcbc; /* Darker grey on hover */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
